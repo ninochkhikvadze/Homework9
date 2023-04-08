@@ -513,11 +513,13 @@
     font-family: 'Poppins', sans-serif;
     border: solid 1px #E3E3E3;
 }
-.qa::after{
+.faq::after{
     content: url(../photo/qa.svg);
-    margin-left: 321px;
-   padding-bottom: 573px;
     display: inline-block;
+
+}
+.qa:hover::after{
+
 }
 /* end */
 .footer{
