@@ -513,7 +513,7 @@
     font-family: 'Poppins', sans-serif;
     border: solid 1px #E3E3E3;
 }
-.faq::after{
+.qa::after{
     content: url(../photo/qa.svg);
     display: inline-block;
 
