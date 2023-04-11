@@ -96,10 +96,10 @@
     display: flex;
     align-items: center;
     flex-direction: column;
-    justify-content: space-between;
     margin-left: 380px;
+    cursor: pointer;
 }
-.container{
+.container{ justify-content: space-between;
     height: 516.8505859375px;
     width: 478px; 
     display: flex;
@@ -126,12 +126,13 @@
     margin-top: 80px;
     position: relative;
 }
-.content::after{
-    content: url(../photo/serviceicon.svg);
-    display: inline-block;
+.list2::after{
+    content: '\003e';
+    font-size: 25px;
     position: absolute;
-    padding-left:381px ;
-    padding-top: 15px;
+    right: 30px;
+    top: 50%;
+    transform:translateY(-50%);
 }
 .box-purple{
     height: 52.8505859375px;
@@ -145,22 +146,11 @@
     font-family: 'Poppins', sans-serif;
     margin-bottom: 12px;
 } 
-.box-purple::after{
-    content: "";
-    height: 52.85px;
-    width:0%;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-   color: #4C4D52;
-    transition:all 0.1s;
-    opacity: 70%;
-
-}
-.box-purple:hover::after{
+.box-purple:hover:hover .list3{
     width: 408px;
     color: #F4F4F4;
     background-color: #6B77E5; 
+
 }
 .list2{
     font-size: 20px;
@@ -186,18 +176,6 @@
     align-items: flex-start;
     margin-top: 22px;
 }
-.list2::after{
-        content: url(../photo/serviceicon.svg);
-        display: inline-block;
-        position: absolute;
-        display: flex;
-        align-items: center;
-        padding-top: 5px;
-        padding-left: 370px;
-        padding-bottom: 5px;
-        margin-bottom: 90px;
-        width: 18px;
- }
 .list1{
     margin-top: 56px;
     margin-left: 35px;
